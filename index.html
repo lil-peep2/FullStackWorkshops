@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<p>Welcome to my portfolio!</p>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="">About</a></li>
+			<li><a href="">Projects</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hey everyone, It's me Krisha, a passionate web developer skilled in building responsive and user-friendly web applications.</p>
+		</section>
+
+
+		<section id="projects">
+			<h2>My Projects</h2>
+			<article>
+				<h3>Project one</h3>
+				<img src="Images/weatherapp.jpg" alt="WeatherApp" width="200">
+                <p>
+                    A responsive web application built with modern JavaScript frameworks. Features include real-time updates and user authentication.
+                </p>
+			</article>
+
+			<article>
+				<h3>Project two</h3>
+				<img src="Images/quizapp.png" alt="QuizApp" width="200">
+                <p>
+                    A web-based quiz application development project typically involves building an interactive platform where users can answer questions and receive a score.
+                </p>
+			</article>
+
+			<article>
+				<h3>Project three</h3>
+				<img src="Images/datavisualization.jpg" alt="DataVisualizationApp" width="200">
+                <p>
+                    A mobile-responsive dashboard application with data visualization and analytics capabilities.
+                </p>
+			</article>
+		</section>
+
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+
+			<form action="" method="post">
+				<div>
+					<label for="name">Full Name: </label><br>
+					<input type="text" id="name" name="name" required placeholder="Alish Rai">
+				</div>
+
+				<div>
+					<label for="email">Email Address: </label><br>
+					<input type="email" id="email" name="email" required placeholder="alishrai@gmail.com">
+				</div>
+
+				<div>
+					<label for="name">Message: </label><br>
+					<textarea id="message" name="message" rows="4" required placeholder="Your message here..."></textarea>
+				</div>
+
+				<button type="submit">Send Message</button>
+
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<span>&copy; 2025 My Portfolio. All rights reserved.</span>
+	</footer>
+</body>
+</html>
